@@ -1,0 +1,17 @@
+[package]
+name = 'NFTR'
+version = '0.0.1'
+
+
+[addresses]
+myself = "0x092537c0ef46a303dfb183abe2d5fe07b16f69d2c4c2699585ef5b08186d4147"
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'testnet'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[dependencies.AptosToken]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'testnet'
+subdir = 'aptos-move/framework/aptos-token'
